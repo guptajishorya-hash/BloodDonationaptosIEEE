@@ -1,0 +1,15 @@
+[package]
+name = "blockchain-based-blood-donation"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x43113b66a3af6f9ab56e71038f856d8f388920e958689dd7b58679be5e024873"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
